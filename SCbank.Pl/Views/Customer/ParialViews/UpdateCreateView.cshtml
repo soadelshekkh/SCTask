@@ -1,0 +1,59 @@
+﻿@model CustomerViewModel
+@{
+    var AllTypes = new SelectList(ViewBag.Types, "Id", "TypeName");
+    
+}
+
+
+<div class="form-group">
+    <label asp-for="Name" class="col-form-label">Customer Name</label>
+    <input asp-for="Name" class="form-control"  />
+    <span asp-validation-for="Name" class="table-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="age" class="col-form-label">Customer Age</label>
+    <input asp-for="age" class="form-control"  />
+    <span asp-validation-for="age" class="table-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="NationalId" class="col-form-label">Customer national Id</label>
+    <input asp-for="NationalId" class="form-control"  />
+    <span asp-validation-for="NationalId" class="table-danger"></span>
+</div>
+<div class="form-group">
+
+    <label asp-for="Email" class="col-form-label">Customer Email</label>
+    <input asp-for="Email" class="form-control"  />
+    <span asp-validation-for="Email" class="table-danger"></span>
+</div>
+<div class="form-group">
+
+    <label asp-for="PhoneNumber" class="col-form-label">Customer phone Number</label>
+    <input asp-for="PhoneNumber" class="form-control"  />
+    <span asp-validation-for="PhoneNumber" class="table-danger"></span>
+</div>
+<div class="form-group">
+
+    <label asp-for="Address.Street" class="col-form-label">Street</label>
+    <input asp-for="Address.Street" class="form-control"  />
+    <span asp-validation-for="Address.Street" class="table-danger"></span>
+</div>
+<div class="form-group">
+
+    <label asp-for="Address.City" class="col-form-label">City</label>
+    <input asp-for="Address.City" class="form-control" />
+    <span asp-validation-for="Address.City" class="table-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="Address.Country" class="col-form-label">Country</label>
+    <input asp-for="Address.Country" class="form-control" />
+    <span asp-validation-for="Address.Country" class="table-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="CustomerTypeId" class="col-form-label">Customer Type</label>
+    <select asp-for="CustomerTypeId" asp-items="AllTypes" class="form-control">
+        <option value = "">--select Type</option>
+    </select>
+    <span asp-validation-for="CustomerTypeId" class="table-danger"></span>
+</div>
+<input asp-for="TimeOfCreation"  hidden/>

@@ -1,0 +1,60 @@
+[
+    {
+        "Name": "Soad",
+        "age": 23,
+        "NationalId": "30008171600869",
+        "CustomerTypeId": 1,
+        "PhoneNumber": "01019962547",
+        "Email": "soadelshekh5000@gmail.com",
+        "TimeOfCreation": "2023-11-04T00:00:00",
+        "Address_Street": "Mahmoud Aref",
+        "Address_City": "Giza",
+        "Address_Country": "Egypt"
+    },
+    {
+        "Name": "Ahmed",
+        "age": 35,
+        "NationalId": "42008271600869",
+        "CustomerTypeId": 2,
+        "PhoneNumber": "01199962547",
+        "TimeOfCreation": "2023-11-01T00:00:00",
+        "Email": "Ahmed1234@gmail.com"
+    },
+    {
+        "Name": "Mahmoud",
+        "age": 28,
+        "NationalId": "60448171600869",
+        "CustomerTypeId": 1,
+        "PhoneNumber": "01014462967",
+        "TimeOfCreation": "2023-11-10T00:00:00",
+        "Email": "Mahmoud5678@gmail.com"
+    },
+    {
+        "Name": "Eman",
+        "age": 33,
+        "NationalId": "29008166600869",
+        "CustomerTypeId": 1,
+        "PhoneNumber": "01559962547",
+        "TimeOfCreation": "2023-11-20T00:00:00",
+        "Email": "Manar23654@gmail.com"
+    },
+    {
+        "Name": "Hoda",
+        "age": 32,
+        "NationalId": "96408166600869",
+        "CustomerTypeId": 2,
+        "PhoneNumber": "01259962547",
+        "TimeOfCreation": "2023-11-30T00:00:00",
+        "Email": "Menna523654@gmail.com"
+    },
+    {
+        "Name": "Fatma",
+        "age": 50,
+        "NationalId": "53608166600869",
+        "CustomerTypeId": 2,
+        "PhoneNumber": "01119962547",
+        "TimeOfCreation": "2023-11-15T00:00:00",
+        "Email": "Fatma63654@gmail.com"
+    }
+
+]

@@ -1,0 +1,15 @@
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Repositary\bin\Debug\net5.0\SCbank.Repositary.deps.json
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Repositary\bin\Debug\net5.0\SCbank.Repositary.dll
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Repositary\bin\Debug\net5.0\SCbank.Repositary.pdb
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Repositary\bin\Debug\net5.0\SCbank.Core.dll
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Repositary\bin\Debug\net5.0\SCbank.Core.pdb
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Repositary\obj\Debug\net5.0\SCbank.Repositary.csproj.AssemblyReference.cache
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Repositary\obj\Debug\net5.0\SCbank.Repositary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Repositary\obj\Debug\net5.0\SCbank.Repositary.AssemblyInfoInputs.cache
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Repositary\obj\Debug\net5.0\SCbank.Repositary.AssemblyInfo.cs
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Repositary\obj\Debug\net5.0\SCbank.Repositary.csproj.CoreCompileInputs.cache
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Repositary\obj\Debug\net5.0\SCbank.Repositary.csproj.CopyComplete
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Repositary\obj\Debug\net5.0\SCbank.Repositary.dll
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Repositary\obj\Debug\net5.0\refint\SCbank.Repositary.dll
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Repositary\obj\Debug\net5.0\SCbank.Repositary.pdb
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Repositary\obj\Debug\net5.0\ref\SCbank.Repositary.dll

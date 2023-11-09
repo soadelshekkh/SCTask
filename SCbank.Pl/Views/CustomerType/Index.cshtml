@@ -1,0 +1,36 @@
+﻿@model IEnumerable<CustomerTypeViewModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<a class="btn btn-info" asp-controller="CustomerType" asp-action="Create">Create New Customer Type</a>
+<br />
+<br />
+
+@if (Model.Count() > 0)
+{
+    <table class="table table-striped table-responsive ">
+        <thead>
+            <tr>
+                <th>Type Name</th>
+                <th>Details</th>
+                <th>Update</th>
+                <th>Dalete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var type in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(M => type.TypeName)</td>
+                    <partial name="ButtonsPartialViews" model="@type.Id.ToString()">
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="btn btn-light">No types Exist</div>
+}

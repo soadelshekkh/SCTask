@@ -1,0 +1,12 @@
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Core\bin\Debug\net5.0\SCbank.Core.deps.json
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Core\bin\Debug\net5.0\SCbank.Core.dll
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Core\bin\Debug\net5.0\SCbank.Core.pdb
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Core\obj\Debug\net5.0\SCbank.Core.csproj.AssemblyReference.cache
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Core\obj\Debug\net5.0\SCbank.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Core\obj\Debug\net5.0\SCbank.Core.AssemblyInfoInputs.cache
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Core\obj\Debug\net5.0\SCbank.Core.AssemblyInfo.cs
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Core\obj\Debug\net5.0\SCbank.Core.csproj.CoreCompileInputs.cache
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Core\obj\Debug\net5.0\SCbank.Core.dll
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Core\obj\Debug\net5.0\refint\SCbank.Core.dll
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Core\obj\Debug\net5.0\SCbank.Core.pdb
+C:\Users\soad elshekh\source\repos\SCbank.Pl\SCbank.Core\obj\Debug\net5.0\ref\SCbank.Core.dll
