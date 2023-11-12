@@ -10,7 +10,7 @@ using SCbank.Repositary.DbContexts;
 namespace SCbank.Repositary.Data.Migrations
 {
     [DbContext(typeof(ScBankDbContext))]
-    [Migration("20231109092518_IntialCreate")]
+    [Migration("20231112034447_IntialCreate")]
     partial class IntialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -28,7 +28,7 @@ namespace SCbank.Repositary.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("CustomerTypeId")
+                    b.Property<int?>("CustomerTypeId")
                         .HasColumnType("int");
 
                     b.Property<string>("Email")
@@ -80,8 +80,7 @@ namespace SCbank.Repositary.Data.Migrations
                     b.HasOne("SCbank.Core.Entities.CustomerType", "CustomerType")
                         .WithMany("Customers")
                         .HasForeignKey("CustomerTypeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.OwnsOne("SCbank.Core.Entities.Address", "Address", b1 =>
                         {

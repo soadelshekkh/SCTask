@@ -32,7 +32,7 @@ namespace SCbank.Repositary.Data.Migrations
                     Address_Street = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Address_City = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Address_Country = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    CustomerTypeId = table.Column<int>(type: "int", nullable: false),
+                    CustomerTypeId = table.Column<int>(type: "int", nullable: true),
                     PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     TimeOfCreation = table.Column<DateTime>(type: "datetime2", nullable: false)

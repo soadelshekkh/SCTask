@@ -26,7 +26,7 @@ namespace SCbank.Repositary.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("CustomerTypeId")
+                    b.Property<int?>("CustomerTypeId")
                         .HasColumnType("int");
 
                     b.Property<string>("Email")
@@ -78,8 +78,7 @@ namespace SCbank.Repositary.Data.Migrations
                     b.HasOne("SCbank.Core.Entities.CustomerType", "CustomerType")
                         .WithMany("Customers")
                         .HasForeignKey("CustomerTypeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.OwnsOne("SCbank.Core.Entities.Address", "Address", b1 =>
                         {

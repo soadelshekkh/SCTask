@@ -14,7 +14,7 @@ namespace SCbank.Core.Entities
         public int age { get; set; }
         public string NationalId { get; set; }
         public Address Address { get; set; }
-        public int CustomerTypeId { get; set; }
+        public int? CustomerTypeId { get; set; }
         //navigation property show customer has one type 
         public CustomerType CustomerType { get; set; }
         [DataType(DataType.PhoneNumber)]

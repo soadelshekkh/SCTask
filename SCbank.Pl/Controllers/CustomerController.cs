@@ -80,12 +80,16 @@ namespace SCbank.Pl.Controllers
         }
         //get customer from view to delete this customer in database
         [HttpPost]
-        public IActionResult Delete(CustomerViewModel customer)
+        public async Task<IActionResult> Delete([FromRoute] int? Id,CustomerViewModel customer)
         {
-            var MappedCustomer = mapper.Map<CustomerViewModel, Customer>(customer);
+            var spec = new CustomerSpectification(Id);
+            // why delete TrueCustomerData Not customer because if user try to change TypeId value of Customer Id 
+            // I will gain unwanted results So i make sure From data by get it from database by using True id from route then delete
+            var TrueCustomerData = await unitOfWork.Repositary<Customer>().GetByIdspec(spec);
+            //var MappedCustomer = mapper.Map<CustomerViewModel, Customer>(customer);
             try
             {
-                unitOfWork.Repositary<Customer>().delete(MappedCustomer);
+                unitOfWork.Repositary<Customer>().delete(TrueCustomerData);
                 return RedirectToAction(nameof(Index));
             }
             catch (System.Exception ex)
@@ -109,6 +113,7 @@ namespace SCbank.Pl.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(CustomerViewModel customer)
         {
+            customer.Id = 0;
             if (ModelState.IsValid)
             { 
                 var Mappedcustomer = mapper.Map<CustomerViewModel, Customer>(customer);

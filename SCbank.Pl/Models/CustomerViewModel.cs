@@ -19,9 +19,9 @@ namespace SCbank.Pl.Models
         public string NationalId { get; set; }
 
         public AddressViewModel Address { get; set; }
-        [ForeignKey("CustomerType")]
         [Required(ErrorMessage = "Please select your type")]
-        public int CustomerTypeId { get; set; }
+        [ForeignKey("CustomerType")]
+        public int? CustomerTypeId { get; set; }
         public CustomerType CustomerType { get; set; }
         [DataType(DataType.PhoneNumber)]
         [RegularExpression(@"^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$", ErrorMessage = "please enter vaild Phone number")]

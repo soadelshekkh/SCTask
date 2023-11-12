@@ -7,6 +7,6 @@
 
 <form asp-action="Delete">
     <partial name="ParialViews/DeleteDetailsView" />
-    <input class="btn btn-danger" type="submit" value="Delete" />
+    <input class="btn btn-danger" asp-route-id = "@Model.Id" type="submit" value="Delete" />
     <a asp-action="Index" class="btn btn-primary">Cancel </a>
 </form>
